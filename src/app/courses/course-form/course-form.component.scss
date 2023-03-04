@@ -4,6 +4,14 @@ mat-card {
   text-align: center;
 }
 
+.mdc-card__actions {
+  display: inline;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+  margin: 1em;
+}
+
 .full-width {
   width: 100%;
 }
