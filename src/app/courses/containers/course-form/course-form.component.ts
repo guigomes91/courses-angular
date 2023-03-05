@@ -24,8 +24,7 @@ export class CourseFormComponent implements OnInit {
     private service: CoursesService,
     private _snackBar: MatSnackBar,
     private location: Location,
-    private route: ActivatedRoute) {
-  }
+    private route: ActivatedRoute) {}
 
   ngOnInit(): void {
       const course: Course = this.route.snapshot.data['course'];
